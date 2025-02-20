@@ -60,3 +60,42 @@ h1{
 
 } 
 
+
+@media screen and (max-width: 768px) {
+    body {
+        gap: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #logo {
+        width: 50vw;
+        margin-top: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    #name, #va {
+        font-size: 30px;
+    }
+
+    #voice {
+        width: 80px;
+        height: 80px;
+    }
+
+    #btn {
+        width: 70%;
+        font-size: 18px;
+        padding: 8px;
+        border-radius: 20px;
+    }
+
+    #btn:hover {
+        letter-spacing: 0.5px;
+    }
+}
+
+
