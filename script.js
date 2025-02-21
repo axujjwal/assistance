@@ -57,7 +57,7 @@ function takeCommand(message){
         speak("I am virtual assistant, created by Ujjwal Sir")
     }
     else if(message.includes("what is your gender")) {
-        speak("keep silent bhosdike, chup madarchod")
+        speak("I am a large model of Artificial intelligence That's why I don't have any gender")
     }
     
     else if(message.includes("open youtube")){
